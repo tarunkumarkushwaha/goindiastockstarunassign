@@ -3,7 +3,7 @@ const SideBar = ({ sidebar, setsidebar }) => {
     return (
         <>
 
-            <aside className={`absolute top-0 left-0 h-full transition-all duration-1000 ease-in-out ${!sidebar ? "w-[30vw] -translate-x-full" : "w-[30vw] -translate-x-1"}`}>
+            <aside className={`absolute top-0 left-0 h-full transition-all duration-1000 ease-in-out ${!sidebar ? "md:w-[25vw] w-[60vw] -translate-x-full" : "md:w-[40vw] w-[60vw] -translate-x-1"}`}>
                 <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
                     <div className="w-4 text-xxl fixed top-1/2 right-[-15px]"><button className='w-5 h-10 text-gray-50 bg-gray-700' onClick={()=>setsidebar(!sidebar)}>{sidebar ? "<":">"}</button></div>
                     <ul className="space-y-2 font-medium">
