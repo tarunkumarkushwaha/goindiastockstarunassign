@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Navbar settoggle={settoggle} />
-      <div className={`flex flex-row justify-between transition-all duration-1000 ease-in-out ${sidebar ? "ml-0 md:ml-[25vw]" : "md:ml-0 ml-0"}`}>
+      <div className={`flex flex-row justify-between transition-all duration-1000 ease-in-out mr-3 ${sidebar ? "ml-3 md:ml-[25vw]" : "md:ml-3 ml-3"}`}>
         <SideBar sidebar={sidebar} setsidebar={setsidebar} />
         <DiscussionForum size={size} toggle={toggle} settoggle={settoggle} />
         <MarketStories size={size} toggle={toggle} settoggle={settoggle} />
