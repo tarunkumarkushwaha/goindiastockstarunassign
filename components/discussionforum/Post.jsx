@@ -15,7 +15,7 @@ const Post = ({ data }) => {
 
     return (
         <>
-            <div className="max-w-sm max-w-sm w-full pt-4 text-[15px] rounded-lg shadow border bg-white border-[#D1D5DB] mx-auto">
+            <div className="my-5 max-w-sm max-w-sm w-full pt-3 text-[15px] rounded-lg shadow border bg-white border-[#D1D5DB] mx-auto">
 
                 <div className="text-primary">
                     <p className="p-5">
