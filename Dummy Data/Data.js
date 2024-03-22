@@ -3,7 +3,7 @@
 let data = {
   "company": "go india stocks",
   "post": [
-    "start investing with the best investment company",
+    "start investing with the best investment company start investing with the best investment company",
     "start investing with the top investment company",
     ".. what",
     "start investing with the top investment company",
